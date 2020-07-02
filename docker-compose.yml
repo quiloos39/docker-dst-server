@@ -1,4 +1,5 @@
 version: '3'
+
 services: 
     dst:
         tty: true
@@ -8,4 +9,4 @@ services:
             - "12346-12347:12346-12347/udp"
         build: .
         volumes: 
-            - ./klei:/home/steam/.klei
+            - ./.klei:/home/steam/.klei
